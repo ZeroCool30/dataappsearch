@@ -1,0 +1,4 @@
+#Sun Jan 28 16:18:38 CST 2024
+base.0=/home/gabinosalinas/Documentos/nuevaapp/dataweb001/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
