@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'dataweb001',
+  appId: 'com.desarrollotlaxcala.appiem',
+  appName: 'Movilidad Segura TLX',
   webDir: 'www',
   server: {
     androidScheme: 'https'

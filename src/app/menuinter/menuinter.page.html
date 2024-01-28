@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button (click)="openMenu()" autoHide="true"></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Inicio </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="container">
+  <a button (click)="gotopage1()">
+    <ion-card color="primary">
+      <p class="iconostilo">
+        <ion-icon name="id-card-outline"></ion-icon>
+      </p>
+      <ion-card-header>
+        <ion-card-title class="tituleenlace">Nosotros</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </a>
+
+  <a button (click)="gotopage2()">
+    <ion-card color="primary">
+      <p class="iconostilo">
+        <ion-icon name="grid-outline"></ion-icon>
+      </p>
+      <ion-card-header>
+        <ion-card-title class="tituleenlace"> Nuestros Servicios </ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </a>
+
+  <a button (click)="gotopage3()">
+    <ion-card color="primary">
+      <p class="iconostilo">
+        <ion-icon name="accessibility-outline"></ion-icon>
+      </p>
+      <ion-card-header>
+        <ion-card-title class="tituleenlace"> Protocolo de movilidad de mujeres y niñas </ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </a>
+
+  <a button (click)="gotoproa()">
+    <ion-card color="primary">
+      <p class="iconostilo">
+        <ion-icon name="document-attach-outline"></ion-icon>
+      </p>
+      <ion-card-header>
+        <ion-card-title class="tituleenlace">PROABIM </ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </a>
+  
+  <a button (click)="gotopaimef()">
+    <ion-card color="primary">
+      <p class="iconostilo">
+        <ion-icon name="map-outline"></ion-icon>
+      </p>
+      <ion-card-header>
+        <ion-card-title class="tituleenlace"> PAIMEF </ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </a>
+  <br /><br /><br />
+</ion-content>

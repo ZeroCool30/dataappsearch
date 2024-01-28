@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Movilidad Segura TLX</string>
+    <string name="title_activity_main">Movilidad Segura TLX</string>
+    <string name="package_name">com.desarrollotlaxcala.appiem</string>
+    <string name="custom_url_scheme">com.desarrollotlaxcala.appiem</string>
+</resources>

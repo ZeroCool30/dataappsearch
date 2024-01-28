@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'menuinter',
+    loadChildren: () => import('./menuinter/menuinter.module').then( m => m.MenuinterPageModule)
+  },
 ];
 
 @NgModule({
